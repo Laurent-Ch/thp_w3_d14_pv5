@@ -27,8 +27,8 @@ puts
 
 #   NB The two following methods work.
 #   First method.
-# page = Nokogiri::HTML(URI.open("https://coinmarketcap.com/all/views/all/"))
-# puts page.class   # => Nokogiri::HTML::Document
+#   page = Nokogiri::HTML(URI.open("https://coinmarketcap.com/all/views/all/"))
+#   puts page.class   # => Nokogiri::HTML::Document
 
 #   Second method.
 #   page = Nokogiri::HTML(RestClient.get('https://coinmarketcap.com/all/views/all/'))
