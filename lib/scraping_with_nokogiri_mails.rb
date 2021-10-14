@@ -23,10 +23,12 @@ end
 
 def perform(county_page)
   raw_data = get_townhall_urls(county_page)
-  raw_data.each do |i|
+  raw_data.map! do |i|
     get_townhall_email(i)
   end
+  return raw_data
 end
 
 print perform(county_page)
 puts ()
+
