@@ -1,8 +1,8 @@
-require_relative '../lib/scrapping_with_nokogiri_trader.rb'
+require_relative '../lib/scraping_with_nokogiri_trader.rb'
 
-describe "scrapper" do
+describe "scrap" do
   it "should return a value that is not nil" do
-    expect(scrapper(1)).to be_truthy
+    expect(scrap(1)).to be_truthy
   end
 end
 

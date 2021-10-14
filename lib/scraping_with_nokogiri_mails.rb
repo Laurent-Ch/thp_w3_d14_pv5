@@ -29,4 +29,4 @@ def perform(county_page)
 end
 
 print perform(county_page)
-puts 
+puts ()
