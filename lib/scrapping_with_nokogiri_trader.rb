@@ -23,9 +23,7 @@ def perform
 end
 
 print perform
-  
-
-
+puts
 
 #   NB The two following methods work.
 #   First method.
